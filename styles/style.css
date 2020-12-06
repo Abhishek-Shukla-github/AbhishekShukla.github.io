@@ -316,6 +316,97 @@ nav ul {
           flex: 1 1 40rem;
 }
 
+.travelly {
+  background-color: burlywood;
+}
+
+.travelly img {
+  width: 90%;
+}
+
+.container {
+  position: relative;
+  margin: auto;
+  width: 100%;
+}
+
+.overlay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  -webkit-transition: background 0.5s ease;
+  transition: background 0.5s ease;
+}
+
+.container:hover .overlay {
+  display: block;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.tit {
+  position: absolute;
+  width: 500px;
+  left: 0;
+  top: 120px;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  z-index: 1;
+  -webkit-transition: top 0.5s ease;
+  transition: top 0.5s ease;
+}
+
+.container:hover .tit {
+  top: 20%;
+  text-align: center;
+}
+
+.overlay-button {
+  position: absolute;
+  margin-left: 30%;
+  margin-right: 30%;
+  width: 40%;
+  top: 50%;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+.overlay-button a {
+  width: 200px;
+  padding: 12px 48px;
+  text-align: center;
+  color: white;
+  border: solid 2px white;
+  z-index: 1;
+}
+
+.container:hover .overlay-button {
+  opacity: 1;
+}
+
 .form-section {
   min-height: 80vh;
   display: -webkit-box;
@@ -509,6 +600,16 @@ footer h4 {
   .travelly img {
     width: 100%;
     height: 100%;
+  }
+  .overlay {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .overlay-button {
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
   }
   form {
     padding: 0rem;
