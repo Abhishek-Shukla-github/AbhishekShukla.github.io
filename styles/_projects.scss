@@ -15,7 +15,6 @@
   flex: 1 1 40rem;
 }
 .travelly {
-  background-color: burlywood;
   img {
     width: 90%;
   }
@@ -35,31 +34,37 @@
   margin-right: 5%;
   width: 90%;
   height: 100%;
-  background: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0.4);
   transition: background 0.5s ease;
 }
 .container:hover .overlay {
   display: block;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.7);
 }
 
-.tit {
+.live-button {
   position: absolute;
-  width: 500px;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
   left: 0;
-  top: 120px;
-  font-weight: 700;
+  top: 50%;
   font-size: 30px;
   text-align: center;
   text-transform: uppercase;
   color: white;
   z-index: 1;
-  transition: top 0.5s ease;
+  transition: top 0.3s ease;
 }
 
-.container:hover .tit {
-  top: 20%;
-  text-align: center;
+.live-button i {
+  font-size: 50px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.container:hover .live-button {
+  top: 25%;
 }
 
 .overlay-button {

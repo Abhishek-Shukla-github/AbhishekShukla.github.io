@@ -316,10 +316,6 @@ nav ul {
           flex: 1 1 40rem;
 }
 
-.travelly {
-  background-color: burlywood;
-}
-
 .travelly img {
   width: 90%;
 }
@@ -352,34 +348,40 @@ nav ul {
   margin-right: 5%;
   width: 90%;
   height: 100%;
-  background: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0.4);
   -webkit-transition: background 0.5s ease;
   transition: background 0.5s ease;
 }
 
 .container:hover .overlay {
   display: block;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.7);
 }
 
-.tit {
+.live-button {
   position: absolute;
-  width: 500px;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
   left: 0;
-  top: 120px;
-  font-weight: 700;
+  top: 50%;
   font-size: 30px;
   text-align: center;
   text-transform: uppercase;
   color: white;
   z-index: 1;
-  -webkit-transition: top 0.5s ease;
-  transition: top 0.5s ease;
+  -webkit-transition: top 0.3s ease;
+  transition: top 0.3s ease;
 }
 
-.container:hover .tit {
-  top: 20%;
-  text-align: center;
+.live-button i {
+  font-size: 50px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.container:hover .live-button {
+  top: 25%;
 }
 
 .overlay-button {
@@ -610,6 +612,23 @@ footer h4 {
     margin-left: 20%;
     margin-right: 20%;
     width: 60%;
+  }
+  .overlay-button a {
+    width: 50px;
+    padding: 4px 16px;
+    text-align: center;
+    color: white;
+    border: solid 2px white;
+    z-index: 1;
+  }
+  .live-button {
+    top: 40%;
+  }
+  .live-button i {
+    font-size: 30px;
+  }
+  .container:hover .live-button {
+    top: 20%;
   }
   form {
     padding: 0rem;
