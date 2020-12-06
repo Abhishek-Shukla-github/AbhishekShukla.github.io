@@ -307,14 +307,19 @@ nav ul {
 }
 
 .projects h2 {
-  margin: 5rem;
+  margin: 3rem;
+  width: 90%;
+  text-align: center;
 }
 
-.speaker,
-.elena {
+.speaker {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 60rem;
           flex: 1 1 60rem;
+}
+
+.speaker {
+  margin-bottom: 40px;
 }
 
 .speaker img {

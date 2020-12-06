@@ -7,16 +7,18 @@
   text-align: center;
   flex-wrap: wrap;
   h2 {
-    margin: 5rem;
+    margin: 3rem;
+    width: 90%;
+    text-align: center;
   }
 }
 
-.speaker,
-.elena {
+.speaker {
   flex: 1 1 60rem;
 }
 
 .speaker {
+  margin-bottom: 40px;
   img {
     width: 90%;
   }
