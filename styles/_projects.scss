@@ -44,7 +44,7 @@
   background: rgba(0, 0, 0, 0.7);
 }
 
-.live-button {
+.git-button {
   position: absolute;
   margin-left: 10%;
   margin-right: 10%;
@@ -59,13 +59,13 @@
   transition: top 0.3s ease;
 }
 
-.live-button i {
+.git-button i {
   font-size: 50px;
   color: white;
   margin-bottom: 20px;
 }
 
-.container:hover .live-button {
+.container:hover .git-button {
   top: 25%;
 }
 

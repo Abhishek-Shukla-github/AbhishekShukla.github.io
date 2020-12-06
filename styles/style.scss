@@ -96,13 +96,13 @@ $gray-text: #2c2c2c;
       z-index: 1;
     }
   }
-  .live-button {
+  .git-button {
     top: 40%;
     i {
       font-size: 30px;
     }
   }
-  .container:hover .live-button {
+  .container:hover .git-button {
     top: 20%;
   }
   form {
