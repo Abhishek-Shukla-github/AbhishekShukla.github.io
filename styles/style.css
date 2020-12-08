@@ -49,6 +49,13 @@ a {
   color: #2c2c2c;
 }
 
+.icon-list:hover {
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+  -webkit-transition: 0.5s ease-in;
+  transition: 0.5s ease-in;
+}
+
 .main-head {
   width: 95%;
   margin: 0 0 0 auto;
@@ -425,6 +432,11 @@ nav ul {
 
 .container:hover .overlay-button {
   opacity: 1;
+}
+
+.iconify {
+  color: aliceblue;
+  font-size: 40px;
 }
 
 .form-section {
